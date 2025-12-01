@@ -22,6 +22,6 @@ document tree:
 * The second call parses this file and locally downloads the documents referred to by the HTML file.
 
 * The third call parses all the HTML documents downloaded in the previous stage and downloads 
-the HTML documents referred to by those documents , and so on (samd).
+the HTML documents referred to by those documents, and so on.
 
 After each stage, you can use common commands like ls or tree to check the behavior of the lwget command.
