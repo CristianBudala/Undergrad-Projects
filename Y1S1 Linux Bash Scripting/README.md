@@ -12,7 +12,7 @@ The difference compared to wget -r is that the recursive downloading of resource
 in the HTML document is done lazily, in the sense that all HTML tags that define resources to be downloaded 
 are defined as promises. These promises are only evaluated when the lwget command forces them through a new call.
 
-* **Recursion Mechanism**
+
 Specifically, each command lwget <URL> forces the evaluation of the current level of recursion in the 
 document tree:
 
